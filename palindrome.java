@@ -21,3 +21,4 @@ public class palindrome{
         System.out.println("Not PALINDROME");
     }
 }
+/**/
