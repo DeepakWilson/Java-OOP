@@ -7,11 +7,11 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-public class yeyeye implements ActionListener{
+public class GUIPalindrome implements ActionListener{
     JTextField tf;
     JLabel l;
     JButton c;
-    yeyeye(){
+    GUIPalindrome(){
         JFrame jf= new JFrame("Check palindrome");
         JPanel p= new JPanel();
         JLabel l= new JLabel("Enter the string");
@@ -38,8 +38,4 @@ public class yeyeye implements ActionListener{
                     tf.setText("Not a palindrome");
             }else{
                 tf.setText("it is palindrome");
-            }
-        }
-    }
-}
-}
+            }}}}}
